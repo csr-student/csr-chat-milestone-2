@@ -25,19 +25,19 @@ class CSRMethods {
                     
                     switch errCode {
                     case .invalidEmail:
-                        self.showAlert(titleMessage: "CSR Alert",messageString: "Invalid email")
+                        self.showAlert(titleMessage: "CSR Alert", messageString: "Invalid email")
                         return
                         
                     case .emailAlreadyInUse:
-                        self.showAlert(titleMessage: "CSR Alert",messageString: "Email already in use")
+                        self.showAlert(titleMessage: "CSR Alert", messageString: "Email already in use")
                         return
                         
                     case .weakPassword:
-                        self.showAlert(titleMessage: "CSR Alert",messageString: "Weak password")
+                        self.showAlert(titleMessage: "CSR Alert", messageString: "Weak password")
                         return
                         
                     default:
-                        self.showAlert(titleMessage: "CSR Alert",messageString: "Other error")
+                        self.showAlert(titleMessage: "CSR Alert", messageString: "Other error")
                         return
                         
                     }
