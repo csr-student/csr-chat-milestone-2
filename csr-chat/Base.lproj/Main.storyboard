@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="csr_chat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="csr_chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-71" y="112"/>
         </scene>
-        <!--View Controller-->
+        <!--Signup View Controller-->
         <scene sceneID="Cqr-2w-gOb">
             <objects>
-                <viewController id="tzc-Fx-xWl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="signup" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tzc-Fx-xWl" customClass="SignupViewController" customModule="csr_chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EXm-YH-08n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="857" y="373"/>
         </scene>
-        <!--View Controller-->
+        <!--Newsfeed View Controller-->
         <scene sceneID="M7p-61-MVe">
             <objects>
-                <viewController id="SzM-CC-Cgk" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="newsfeed" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SzM-CC-Cgk" customClass="NewsfeedViewController" customModule="csr_chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="drJ-V1-m2o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="1647.826086956522" y="111.83035714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Write Post View Controller-->
         <scene sceneID="O7C-cU-7MU">
             <objects>
-                <viewController id="E9Y-XW-XsW" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="writepost" useStoryboardIdentifierAsRestorationIdentifier="YES" id="E9Y-XW-XsW" customClass="WritePostViewController" customModule="csr_chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tBZ-7K-t33">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -94,10 +94,10 @@
             </objects>
             <point key="canvasLocation" x="2416" y="113"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="Gr2-4c-LXq">
             <objects>
-                <viewController id="dEJ-Eo-V7f" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dEJ-Eo-V7f" customClass="LoginViewController" customModule="csr_chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h79-FB-5YB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
