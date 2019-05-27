@@ -17,13 +17,16 @@ class NewsfeedViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         // write code here -- return the number of cells in the table
-
+        return 1
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // write code here -- let's create our individual cells
+        let cell = tableView.dequeueReusableCell(withIdentifier: "customcell", for: indexPath)
+        return cell
+
     }
 
     
